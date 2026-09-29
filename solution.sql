@@ -1,15 +1,7 @@
--- Lab Program 11
--- Create the StudentDetails view.
---
--- The view must display:
--- StudentName
--- CourseName
--- DepartmentName
---
--- Required view name:
--- StudentDetails
-
-USE CollegeDB;
-
--- Write your solution below.
-
+CREATE TABLE Student (
+    StudentID INT PRIMARY KEY,
+    StudentName VARCHAR(50),
+    CourseName VARCHAR(50),
+    FacultyName VARCHAR(50),
+    DepartmentName VARCHAR(50)
+);
